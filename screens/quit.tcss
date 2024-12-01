@@ -1,0 +1,4 @@
+QuitScreen > Container > Label {
+    width: 100%;
+    content-align-horizontal: center;
+}

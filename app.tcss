@@ -1,0 +1,24 @@
+Container {
+    width: auto;
+    height: auto;
+}
+
+Container > Horizontal {
+    width: auto;
+    height: auto;
+    align: center middle;
+    padding: 1 2;
+}
+
+Button {
+    margin: 1 2;
+    align: center middle;
+}
+
+#commands Horizontal {
+    width: 100%
+}
+
+.title {
+    text-style: italic bold;
+}

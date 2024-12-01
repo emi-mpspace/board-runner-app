@@ -1,0 +1,36 @@
+ModalScreen {
+    align: center middle;
+}
+
+ModalScreen > Container {
+    width: auto;
+    height: auto;
+    align: center middle;
+    padding: 1 2;
+    background: $panel;
+}
+
+ModalScreen > Container > Horizontal {
+    height: auto;
+    width: auto;
+}
+
+ModalScreen > Container > &> Button {
+    margin: 1 2;
+}
+
+ModalScreen &> Input.-valid {
+    border: tall $success;
+}
+
+ModalScreen &> Input.-valid:focus {
+    border: tall $success;
+}
+
+ModalScreen &> Input {
+    margin: 1 1;
+}
+
+ModalScreen &> Label {
+    margin: 1 2;
+}

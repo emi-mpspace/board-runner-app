@@ -1,0 +1,12 @@
+RichLog {
+    margin: 1;
+}
+
+Label {
+    margin-left: 1;
+}
+
+#select_directory {
+    background: #3C99DC;
+    color: white;
+}
